@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dịch Vụ In Ấn & Chụp Ảnh</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #222;
+}
+
+header {
+    background: linear-gradient(135deg, #0066ff, #00a8ff);
+    color: white;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 17px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.intro {
+    background: white;
+    border-radius: 18px;
+    padding: 25px;
+    margin-top: -20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.intro h2 {
+    color: #0066ff;
+    margin-bottom: 10px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.service {
+    background: white;
+    padding: 25px 15px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+    border: 1px solid #eee;
+}
+
+.service .icon {
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+.service h3 {
+    color: #0066ff;
+    margin-bottom: 8px;
+}
+
+.contact {
+    margin-top: 25px;
+    background: white;
+    border-radius: 18px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+}
+
+.contact h2 {
+    color: #0066ff;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 18px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 22px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.phone {
+    background: #16a34a;
+}
+
+.zalo {
+    background: #087cff;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    .services {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>📸 CHỤP ẢNH THẺ & DỊCH VỤ IN ẤN</h1>
+    <p>Nhanh chóng • Chất lượng • Giá hợp lý</p>
+</header>
+
+<div class="container">
+
+    <div class="intro">
+        <h2>DỊCH VỤ CỦA CHÚNG TÔI</h2>
+        <p>
+            Nhận chụp ảnh, in ấn và xử lý hình ảnh nhanh chóng.
+            Phục vụ cá nhân, học sinh, sinh viên và hồ sơ giấy tờ.
+        </p>
+    </div>
+
+    <div class="services">
+
+        <div class="service">
+            <div class="icon">📸</div>
+            <h3>Chụp Ảnh Thẻ</h3>
+            <p>Ảnh thẻ hồ sơ, CCCD, visa, giấy tờ và các loại ảnh theo yêu cầu.</p>
+        </div>
+
+        <div class="service">
+            <div class="icon">📄</div>
+            <h3>Photocopy</h3>
+            <p>Photocopy tài liệu, giấy tờ, hồ sơ nhanh chóng và rõ nét.</p>
+        </div>
+
+        <div class="service">
+            <div class="icon">🖨️</div>
+            <h3>In Màu</h3>
+            <p>In tài liệu, hồ sơ, hình ảnh và giấy tờ với màu sắc rõ đẹp.</p>
+        </div>
+
+        <div class="service">
+            <div class="icon">📑</div>
+            <h3>Scan</h3>
+            <p>Scan tài liệu, giấy tờ và chuyển sang file điện tử.</p>
+        </div>
+
+        <div class="service">
+            <div class="icon">🖼️</div>
+            <h3>In Ảnh</h3>
+            <p>In ảnh nhiều kích thước, ảnh hồ sơ và ảnh kỷ niệm.</p>
+        </div>
+
+        <div class="service">
+            <div class="icon">🌄</div>
+            <h3>Rửa Ảnh</h3>
+            <p>Rửa ảnh từ điện thoại, USB hoặc gửi ảnh trực tuyến.</p>
+        </div>
+
+    </div>
+
+    <div class="contact">
+        <h2>📞 LIÊN HỆ ĐẶT DỊCH VỤ</h2>
+
+        <p>Vui lòng liên hệ để được tư vấn và báo giá.</p>
+
+        <div class="buttons">
+            <a class="btn phone" href="tel:SO_DIEN_THOAI">
+                ☎ Gọi điện
+            </a>
+
+            <a class="btn zalo" href="https://zalo.me/SO_DIEN_THOAI">
+                💬 Nhắn Zalo
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 - Dịch vụ Chụp Ảnh & In Ấn
+</footer>
+
+</body>
+</html>
